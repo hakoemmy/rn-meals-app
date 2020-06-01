@@ -2,7 +2,7 @@ import React from 'react';
 import {View, Text, Button, StyleSheet} from 'react-native';
 
 const CategoriesScreen = props => {
-    //console.log();
+
     return (
        <View style={styles.screen}>
            <Text>The categories Screen!</Text>
@@ -21,4 +21,6 @@ const styles = StyleSheet.create({
     }
 });
 
+
 export default CategoriesScreen;
+
